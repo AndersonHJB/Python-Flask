@@ -26,7 +26,7 @@ def save(urls: list):
 
 def generate_path():
     BASE = "https://github.aiyc.top/Python-Flask/"
-    target = ["mp4", "ts"]
+    target = ["mp4", "ts", "webm"]
     result = []
     for root, _, filenames in os.walk("."):
         for name in filenames:
